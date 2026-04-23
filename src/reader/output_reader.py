@@ -12,7 +12,7 @@ console = Console()
 
 def get_keyword_outputs(keyword: str) -> list[dict]:
     """
-    Scan D:\\Product Reels\\[keyword]\\output\\ for ready videos.
+    Scan D:\\Products Reels\\[keyword]\\output\\ for ready videos.
     Returns list of video dicts sorted by creation date.
     """
     output_dir = SSD_BASE / keyword / "output"
